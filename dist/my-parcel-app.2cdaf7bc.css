@@ -1,0 +1,29 @@
+:root {
+  --bs-body-bg: #0a0c2e;
+  --bs-body-color: #e6e6ff;
+  --bs-primary: #6a6cff;
+  --bs-primary-rgb: 106, 108, 255;
+  --bs-link-color: #a9aaff;
+}
+
+body {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  padding-top: 70px;
+  font-family: system-ui, sans-serif;
+}
+
+.btn-gradient {
+  color: #fff;
+  background: linear-gradient(135deg, #6a6cff, #9f7bff);
+  border-radius: 50px;
+  padding: 12px 28px;
+  transition: all .3s;
+}
+
+.btn-gradient:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #9f7bff, #6a6cff);
+  transform: translateY(-3px);
+}
+/*# sourceMappingURL=my-parcel-app.2cdaf7bc.css.map */
